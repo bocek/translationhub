@@ -1,1 +1,1 @@
-read me
+http://translationhub.com/documentation

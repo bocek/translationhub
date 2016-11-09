@@ -4,10 +4,16 @@
     "description": "TranslationHUB Api Client For PHP",
     "type": "library",
     "require": {
+   			  "php": ">=5.3.0",
         "nategood/httpful": "0.2.20"
     },
     "require-dev": {
         "nategood/httpful": "0.2.20"
+    }, 
+     "autoload": {
+        "psr-4": {
+            "Translationhub\\": "src"
+        }
     },
     "license": "BSD",
     "authors": [

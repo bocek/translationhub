@@ -1,0 +1,7 @@
+vendor/*
+/vendor/
+.buildpath
+.project
+.settings
+example/*
+init.php

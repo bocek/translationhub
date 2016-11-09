@@ -1,0 +1,18 @@
+{
+    "name": "pasyonis/translationhub",
+    "description": "TranslationHUB Api Client For PHP",
+    "type": "library",
+    "require": {
+        "nategood/httpful": "0.2.20"
+    },
+    "require-dev": {
+        "nategood/httpful": "0.2.20"
+    },
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "cucu",
+            "email": "cuneyt.ekinci@gmail.com"
+        }
+    ]
+}

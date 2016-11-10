@@ -8,5 +8,8 @@ class Job extends Client {
 		return $this->get($url,array("id"=>$jobId));
 	}
 	
-	
+	public function getAnalysis($jobId){
+		$url = API::$URL_JOB;
+		return $this->get($url."/".$jobId."/analyse");
+	}
 }

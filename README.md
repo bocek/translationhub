@@ -28,7 +28,7 @@ and start to use it, an example will be presented here soon.
 
 
 
-Question, Comments, Complaints, Praise?
+Question, Comments, Complaints
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 If you have questions or comments and would like to reach us directly, We would love to hear from developers. 
 

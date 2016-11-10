@@ -21,6 +21,12 @@ Our library can be installed using [composer](http://getcomposer.org/).  Simply 
 Then inside of your code you can call:
 
 ```php
+require __DIR__.'/vendor/autoload.php';
+use Translationhub\Project;
+use Translationhub\Config;
+use Translationhub\Translation;
+use Translationhub\Job;
+
 \TranslationHub\Config::setEmail("your_email");
 \TranslationHub\Config::setPassword("your_password");
 
@@ -65,7 +71,7 @@ else {
 	sleep(15);
 	
 
-	//Lets get our job details and analysed results
+	//Lets get our job details and analysis results
 	$response = $projectApi->getTranslationJobs($projectId);
 	print_r($response);
 	if($response->status="success"){

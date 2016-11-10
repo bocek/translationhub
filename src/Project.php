@@ -8,13 +8,13 @@ class Project extends Client{
 	}
 	
 	public function startProject($projectId){
-		$url = API::$URL_PROJECT_START;
-		return $this->get($url,array("id"=>$projectId));
+		$url = API::$URL_PROJECT;
+		return $this->get($url."/".$projectId."/start");
 	}
 	
 	public function getTranslationJobs($projectId){
-		$url = API::$URL_PROJECT_JOBS;
-		return $this->get($url,array("id"=>$projectId));
+		$url = API::$URL_PROJECT;
+		return $this->get($url."/".$projectId."/jobs");
 	}
 	
 	public function updateProject(array $payload){

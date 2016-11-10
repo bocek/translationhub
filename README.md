@@ -10,7 +10,7 @@ Installing the library is simple. Just add it to "require" of your composer.json
 
 ## Composer
 
-Our library can be installed using [composer](http://getcomposer.org/).  Simply add `pasyonis/translationhub` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
+Our library can be installed using [composer](http://getcomposer.org/).  Simply add `pasyonis/translationhub` to your composer.json file.  
 
     {
         "require": {
@@ -30,8 +30,7 @@ and start to use it, an example will be presented here soon.
 
 Question, Comments, Complaints, Praise?
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-If you have questions or comments and would like to reach us directly, please feel free to do so at the following outlets. We love hearing from
-developers!
+If you have questions or comments and would like to reach us directly, We would love to hear from developers. 
 
 * Email: info [at] pasyonis dot com
 

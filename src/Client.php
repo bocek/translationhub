@@ -25,10 +25,10 @@ class Client {
 		return $url;
 	}
 	
-	public static function get($url, array $params = array()) {
+	protected static function get($url, array $params = array()) {
 		$url = self::attachToken ( $url );
-		$url = $url . http_build_query ( $params );
-		echo $url;
+		$url = $url ."&". http_build_query ( $params );
+		
 		try {
 			$response = Request::get ( $url )->send ();
 		} catch ( \Exception $ex ) {
@@ -39,7 +39,7 @@ class Client {
 		return $response->body;
 	}
 	
-	public static function post($url, array $payload = array()) {
+	protected static function post($url, array $payload = array()) {
 		$url = self::attachToken ( $url );
 	
 		try {
@@ -53,7 +53,7 @@ class Client {
 		return $response->body;
 	}
 	
-	public static function put($url, array $payload = array()) {
+	protected static function put($url, array $payload = array()) {
 		$url = self::attachToken ( $url );
 		try {
 			$response = Request::put ( $url, $payload )->send ();
@@ -65,7 +65,7 @@ class Client {
 		return $response->body;
 	}
 	
-	public static function delete($url, array $payload = array()) {
+	protected static function delete($url, array $payload = array()) {
 		try {
 			$url = self::attachToken ( $url );
 			$response = Request::delete ( $url )->send ();

@@ -1,7 +1,6 @@
 {
     "name": "pasyonis/translationhub",
     "minimum-stability": "dev",
-    "version":"1.0.0",
     "description": "TranslationHUB Api Client For PHP",
     "type": "library",
     "require": {

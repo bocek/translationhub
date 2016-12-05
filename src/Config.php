@@ -3,7 +3,7 @@ namespace  Translationhub;
 
 class Config {
 	private static $_settings = array(
-			'baseurl' => 'http://api.translationhub.com/',
+			'baseurl' => 'https://api.translationhub.com/',
 			'format' => 'json',
 			'timeout' => 120,
 			'email' => false,
